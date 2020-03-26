@@ -1,8 +1,15 @@
 import React from 'react';
+import {
+  BrowserRouter
+} from "react-router-dom";
+
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
-    <h1>Course Dashboard</h1>
+    <BrowserRouter>
+      <GlobalStyle />
+    </BrowserRouter>
   );
 }
 
