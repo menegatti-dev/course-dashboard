@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
 
-export const Container = styled.div`
+export const Container = styled.aside`
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100px;
-  height: 100vh;
+  height: 100%;
   background: #373B53;
+  position: fixed;
 `;
 
 export const Pages = styled.div`
@@ -19,23 +20,20 @@ export const Pages = styled.div`
 
 export const LogoArea = styled.div`
   display: flex;
+  flex-shrink: 0;
   height: 100px;
   width: 100px;
   background: #6F52ED;
   align-items: center;
   justify-content: center;
 
-  img {
-    height: 54px;
-    width: 54px;
-  }
 `;
 
 export const Navigation = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   justify-content: space-between;
 `;
 

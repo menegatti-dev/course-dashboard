@@ -21,5 +21,6 @@ export default createGlobalStyle`
 
   #root {
     cursor: default;
+    display: flex;
   }
 `;
